@@ -1,0 +1,48 @@
+{
+    "name": "owenvoke/blade-entypo",
+    "type": "library",
+    "description": "A package to easily make use of Entypo in your Laravel Blade views",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^0.3",
+        "phpstan/phpstan": "^0.12.36",
+        "rector/rector-prefixed": "^0.7.63",
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "OwenVoke\\BladeEntypo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OwenVoke\\BladeEntypo\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "lint": "rector process src",
+        "test:lint": "rector process src --dry-run",
+        "test:types": "phpstan analyse --ansi --memory-limit=0",
+        "test:unit": "pest --colors=always",
+        "test": [
+            "@test:lint",
+            "@test:types",
+            "@test:unit"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OwenVoke\\BladeEntypo\\BladeEntypoServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
