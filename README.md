@@ -7,7 +7,7 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Buy us a tree][ico-treeware-gifting]][link-treeware-gifting]
 
-A package to easily make use of [Entypo](https://entypo.com) in your Laravel Blade views.
+A package to easily make use of [Entypo](http://entypo.com) in your Laravel Blade views.
 
 For a full list of available icons see [the SVG directory](./resources/svg).
 
@@ -102,13 +102,13 @@ Read more about Treeware at [treeware.earth][link-treeware].
 [ico-version]: https://img.shields.io/packagist/v/owenvoke/blade-entypo.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-github-actions]: https://img.shields.io/github/workflow/status/owenvoke/blade-entypo/Tests.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/274363158/shield
+[ico-styleci]: https://styleci.io/repos/288147960/shield
 [ico-downloads]: https://img.shields.io/packagist/dt/owenvoke/blade-entypo.svg?style=flat-square
 [ico-treeware-gifting]: https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/owenvoke/blade-entypo
 [link-github-actions]: https://github.com/owenvoke/blade-entypo/actions
-[link-styleci]: https://styleci.io/repos/274363158
+[link-styleci]: https://styleci.io/repos/288147960
 [link-downloads]: https://packagist.org/packages/owenvoke/blade-entypo
 [link-treeware]: https://treeware.earth
 [link-treeware-gifting]: https://ecologi.com/owenvoke?gift-trees
