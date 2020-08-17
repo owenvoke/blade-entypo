@@ -2,4 +2,4 @@
 
 ...
 
-- [ ] I have read the **[CONTRIBUTING](https://github.com/owenvoke/skeleton-php/blob/main/.github/CONTRIBUTING.md)** document.
+- [ ] I have read the **[CONTRIBUTING](https://github.com/owenvoke/blade-entypo/blob/main/.github/CONTRIBUTING.md)** document.
