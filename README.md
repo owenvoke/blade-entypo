@@ -29,19 +29,19 @@ $ composer require owenvoke/blade-entypo
 Icons can be used a self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-fas-cloud/>
+<x-entypo-cloud/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-fas-cloud class="w-6 h-6 text-gray-500"/>
+<x-entypo-cloud class="w-6 h-6 text-gray-500"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x-fas-cloud style="color: #555"/>
+<x-entypo-cloud style="color: #555"/>
 ```
 
 ### Raw SVG Icons
@@ -55,7 +55,7 @@ php artisan vendor:publish --tag=blade-entypo --force
 Then use them in your views like:
 
 ```blade
-<img src="{{ asset('vendor/blade-entypo/solid/cloud.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-entypo/cloud.svg') }}" width="10" height="10"/>
 ```
 
 ### Blade Icons
