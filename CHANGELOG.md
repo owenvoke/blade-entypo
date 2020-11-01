@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ## Unreleased
 
+## v1.2.0 - 2020-11-01
+
+### Changed
+- Update to Blade Icons v0.5.x ([#2](https://github.com/owenvoke/blade-entypo/pull/2))
+
 ## v1.1.0 - 2020-09-09
 
 ### Added
