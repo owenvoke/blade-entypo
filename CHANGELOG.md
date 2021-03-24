@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ## Unreleased
 
+## v1.4.0 - 2021-03-24
+
+### Changed
+- Drop Laravel 7 support ([84f5cb6](https://github.com/owenvoke/blade-entypo/commit/84f5cb667c3f363d704baa3fb2a89fd314f456b2))
+- Require Blade Icons 1.x ([84f5cb6](https://github.com/owenvoke/blade-entypo/commit/84f5cb667c3f363d704baa3fb2a89fd314f456b2))
+
 ## v1.3.0 - 2021-03-22
 
 ### Added
