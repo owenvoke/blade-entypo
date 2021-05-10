@@ -23,7 +23,7 @@ final class BladeEntypoServiceProvider extends ServiceProvider
 
     private function registerConfig(): void
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/blade-entypo.php', 'blade-entypo');
+        $this->mergeConfigFrom(__DIR__.'/../config/blade-entypo.php', 'blade-entypo');
     }
 
     public function boot(): void
@@ -34,7 +34,7 @@ final class BladeEntypoServiceProvider extends ServiceProvider
             ], 'blade-entypo');
 
             $this->publishes([
-                __DIR__ . '/../config/blade-entypo.php' => $this->app->configPath('blade-entypo.php'),
+                __DIR__.'/../config/blade-entypo.php' => $this->app->configPath('blade-entypo.php'),
             ], 'blade-entypo-config');
         }
     }
