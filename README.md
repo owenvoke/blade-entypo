@@ -20,8 +20,16 @@ For a full list of available icons see [the SVG directory](./resources/svg).
 
 Via Composer
 
-```bash
+```shell
 $ composer require owenvoke/blade-entypo
+```
+
+## Configuration
+
+Blade Entypo also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-entypo.php` config file:
+
+```shell
+php artisan vendor:publish --tag=blade-entypo-config
 ```
 
 ## Usage
@@ -48,7 +56,7 @@ And even use inline styles:
 
 If you want to use the raw SVG icons as assets, you can publish them using:
 
-```bash
+```shell
 php artisan vendor:publish --tag=blade-entypo --force
 ```
 
