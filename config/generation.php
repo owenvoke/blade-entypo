@@ -11,9 +11,10 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
 };
 
 return [
-[    'source' => __DIR__.'/../node_modules/entypo-optimized/dist/icons',
-    'destination' => __DIR__.'/../resources/svg',
-    'after' => $svgNormalization,
-    'safe' => true,
-]
+    [
+        'source' => __DIR__.'/../node_modules/entypo-optimized/dist/icons',
+        'destination' => __DIR__.'/../resources/svg',
+        'after' => $svgNormalization,
+        'safe' => true,
+    ]
 ];
