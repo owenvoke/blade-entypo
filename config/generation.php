@@ -16,5 +16,5 @@ return [
         'destination' => __DIR__.'/../resources/svg',
         'after' => $svgNormalization,
         'safe' => true,
-    ]
+    ],
 ];
