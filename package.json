@@ -1,0 +1,6 @@
+{
+    "private": true,
+    "devDependencies": {
+        "entypo-optimized": "github:adamwathan/entypo-optimized"
+    }
+}
