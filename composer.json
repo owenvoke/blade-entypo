@@ -4,16 +4,16 @@
     "description": "A package to easily make use of Entypo in your Laravel Blade views",
     "license": "MIT",
     "require": {
-        "php": "^7.4 || ^8.0",
-        "blade-ui-kit/blade-icons": "^1.1",
-        "illuminate/support": "^8.0"
+        "php": "^8.0",
+        "blade-ui-kit/blade-icons": "^1.2",
+        "illuminate/support": "^9.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.0",
-        "pestphp/pest": "^1.20",
-        "phpstan/phpstan": "^0.12.99",
+        "orchestra/testbench": "^7.0",
+        "pestphp/pest": "^1.21.1",
+        "phpstan/phpstan": "^1.4",
         "spatie/pest-plugin-snapshots": "^1.0.1",
-        "symfony/var-dumper": "^5.3.8"
+        "symfony/var-dumper": "^5.4.2"
     },
     "autoload": {
         "psr-4": {
