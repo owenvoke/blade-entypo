@@ -13,7 +13,7 @@
         "pestphp/pest": "^1.21.1",
         "phpstan/phpstan": "^1.4",
         "spatie/pest-plugin-snapshots": "^1.0.1",
-        "symfony/var-dumper": "^5.4.2"
+        "symfony/var-dumper": "^6.0"
     },
     "autoload": {
         "psr-4": {
