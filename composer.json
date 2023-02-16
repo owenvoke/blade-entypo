@@ -5,14 +5,14 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "blade-ui-kit/blade-icons": "^1.2",
+        "blade-ui-kit/blade-icons": "^1.5",
         "illuminate/support": "^9.0|^10.0"
     },
     "require-dev": {
         "laravel/pint": "^1.5",
-        "orchestra/testbench": "^7.0",
-        "pestphp/pest": "^1.21.1",
-        "phpstan/phpstan": "^1.4",
+        "orchestra/testbench": "^7.22|^8.0",
+        "pestphp/pest": "^1.22.3",
+        "phpstan/phpstan": "^1.9.17",
         "spatie/pest-plugin-snapshots": "^1.0.1",
         "symfony/var-dumper": "^6.0"
     },
