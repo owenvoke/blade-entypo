@@ -21,15 +21,15 @@ Please see the [upgrade guide](UPGRADE.md) for information on how to upgrade to 
 
 ## Requirements
 
-- PHP 8.0 or higher
-- Laravel 9.0 or higher
+- PHP 8.1 or higher
+- Laravel 10.x or higher
 
 ## Install
 
 Via Composer
 
 ```shell
-$ composer require owenvoke/blade-entypo
+composer require owenvoke/blade-entypo
 ```
 
 ## Configuration
@@ -85,7 +85,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ## Testing
 
 ```bash
-$ composer test
+composer test
 ```
 
 ## Contributing
