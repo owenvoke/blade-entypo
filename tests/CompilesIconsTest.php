@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use OwenVoke\BladeEntypo\Tests\TestCase;
+
 use function Spatie\Snapshots\assertMatchesSnapshot;
 
 uses(TestCase::class);
