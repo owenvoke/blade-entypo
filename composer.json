@@ -6,7 +6,8 @@
     "require": {
         "php": "^8.1",
         "blade-ui-kit/blade-icons": "^1.5",
-        "illuminate/support": "^10.0"
+        "illuminate/support": "^10.0",
+        "thecodingmachine/safe": "^2.5"
     },
     "require-dev": {
         "laravel/pint": "^1.11",
@@ -14,7 +15,8 @@
         "pestphp/pest": "^2.16",
         "phpstan/phpstan": "^1.10",
         "spatie/pest-plugin-snapshots": "^2.0",
-        "symfony/var-dumper": "^6.3"
+        "symfony/var-dumper": "^6.3",
+        "thecodingmachine/phpstan-safe-rule": "^1.2"
     },
     "autoload": {
         "psr-4": {
