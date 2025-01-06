@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ## Unreleased
 
+## v2.2.1 - 2025-01-06
+
+### Removed
+
+- Remove Safe PHP package ([#11](https://github.com/owenvoke/blade-entypo/pull/11))
+
 ## v2.2.0 - 2024-03-27
 
 ### Added
