@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ## Unreleased
 
+## v2.3.0 - 2025-04-22
+
+### Added
+- Add support for Laravel 12.x ([#13](https://github.com/owenvoke/blade-entypo/pull/13))
+
 ## v2.2.1 - 2025-01-06
 
 ### Removed
